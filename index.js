@@ -157,5 +157,7 @@ $.ajax({
   }
 
 
-
+$("#nonRadar").click(function(){
+  $('#marksChart').toggle();
+})
   
